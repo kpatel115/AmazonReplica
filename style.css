@@ -44,6 +44,26 @@ body{
 .btn {
     border: 1px solid gray;
 }
+.forgot-link{
+    margin-left: 200px;
+}
+.span-wrapper{
+    margin: 15px;
+}
+span{
+    color: rgb(105, 105, 105);
+    border: 1px solid gainsboro;
+    padding: 8px;
+    border-radius: 8px ;
+    transition: .8s ease-in-out;
+}
+span:hover{
+    background-color: black;
+    color: rgb(250, 213, 165);
+    
+    transition: .8s ease-in-out;
+    cursor: pointer;
+}
 .footer-list{
     margin: 100px 35%;
     
@@ -60,4 +80,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.btn-warning{
+    background-color:rgb(250, 199, 70);
+    color: black;
+}
+.btn-secondary{
+    width: 400px;
+    background-color: gainsboro;
+    color: black;
 }
